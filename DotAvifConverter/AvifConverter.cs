@@ -12,7 +12,7 @@ public static class AvifConverter
 {
 	private static bool RootBinaryChecked = false;
 	private static string? BinPath = null;
-	private static string BinCavifRoot = "." + Path.PathSeparator + "runtimes";
+	private static string BinCavifRoot = Path.Combine(".", "runtimes");
 	private const string BinCavifWindows = "\\win\\cavif.exe";
 	private const string BinCavifLinux = "/linux-generic/cavif";
 	private const string BinCavifMac = "/mac/cavif";
