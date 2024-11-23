@@ -1,21 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
+		<TargetFrameworks>netstandard2.0;net6.0;net9.0</TargetFrameworks>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion>
 		<Title>Dot Avif Image Converter</Title>
 		<Authors>Salar Khalilzadeh</Authors>
-		<Copyright>Copyright © 2022</Copyright>
+		<Copyright>Copyright © 2024</Copyright>
 		<Description>An avif converter for .net. Uses cavif to do that.</Description>
 		<PackageProjectUrl>https://github.com/salarcode/DotAvifConvertor</PackageProjectUrl>
 		<PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
 		<PackageTags>avif cavif Image</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-		<AssemblyVersion>1.0</AssemblyVersion>
-		<FileVersion>1.0</FileVersion>
+		<Version>1.0.1</Version>
+		<PackageReleaseNotes>
+			* Fixed the wrong default root path
+		</PackageReleaseNotes>
 	</PropertyGroup>
 	<ItemGroup>
 		<None Include="./../README.md" Pack="true" PackagePath="" />
